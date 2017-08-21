@@ -1,0 +1,112 @@
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    margin: auto;
+    width: auto;
+    padding: 10px; /*Setting the position for the page */ 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #40489E; /* Colors for the headings */}
+
+ 
+.BMElogo
+{height: 50px; width: auto;
+ margin-top: 7px;} /* Setting the position for the logo */
+
+.navbar-fixed-top {
+
+    height:60px;
+    background-color: #40489E;
+    border:none;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%; /* The height of the carousel, so it adjust to the text */ 
+}
+.container{
+    padding-top: 150px;
+    
+}
+.carousel-control {
+z-index: 10;
+top: 2%;
+}
+
+.step_text{
+
+}
+/*
+.carousel-inner {
+   margin-bottom:100px;
+*/
+}
+.next_button {
+    padding-top: 20px;
+}
+.btn-danger {
+    background-color: #FD6650 !important;
+    border-color:#FD6650
+}
+.btn-danger:hover {
+    background-color: #FD6650 !important;
+    border-color: #FD6650;
+}
+.content-text {
+    height: 300px;
+}
+.carousel-control.left, .carousel-control.right {   /* removing the gray background in the default bootstrap framework */ 
+ background-image: none; 
+top:0;
+}
+.carousel-control.left{ opacity:1 !important; color:white } 
+
+/*.left {
+    display: none; /*
+}
+.carousel-indicators {
+  bottom:-50px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    border-color: black;
+    background-color: #40489E;
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: black; 
+}
+
+/* Responsive Styles */
+
+@media(max-width:767px) {
+
+    header.carousel .carousel {
+        width:100%;
+        height:auto;
+    }
+.BMElogo {
+    height: 50px; width: auto; 
+    padding-bottom: 10px;}
+
+}
+}
+
+
+
+
