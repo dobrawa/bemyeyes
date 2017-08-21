@@ -31,38 +31,29 @@
 	<title>App Introduction to| Be My Eyes App</title>
 </head>
     <body>
-     <header class=" navbar navbar-inverse navbar-fixed-top">
-         
-		 <a class="BMElogo" href="#"> <img class="BMElogo" src="BME_2.png"></a>
+     <header>
+		 <a class="BMElogo"> 
+             <img class="BMElogo" src="BME_2.png">
+         </a>
         </header>
         
-	<main class="container">
-		<div class="main">
-			<h1>Let's Get started</h1>
-    <form class="form-horizontal" name="registration" action="welcome.php" method="post" >
-        <div class="form-group text-left">
-        <label class="control-label col-sm-2" for="name">Name:</label> 
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" placeholder="Enter name" maxlength="99" name="name" pattern="[A-Za-z]{1,99}" required>
-            </div>
-        </div>
-        <div class="form-group text-left">
-            <label class="control-label col-sm-2" for="surname">Surname:</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="surname" placeholder="Enter Surname" maxlength="99" name="surname" pattern="[A-Za-z]{1,99}" required>
-            </div>
-        </div>
-        <div class="form-group text-left">
-            <label class="control-label col-sm-2" for="email">E-mail</label>
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email" required>
-            </div>
-        </div>
-            <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-danger btn-block">Submit</button>
-            </div>
+	<main>
+        <h1>Let's Get started</h1>
+        
+        <form class="form-horizontal" name="registration" action="welcome.php" method="post">
+            
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name" maxlength="99" name="name" pattern="[A-Za-z]{1,99}" required>
+       
+            <label for="name">Surname:</label>
+            <input type="text" class="form-control" id="surname" placeholder="Enter Surname" maxlength="99" name="surname" pattern="[A-Za-z]{1,99}" required>
+     
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email" required>
+            
+            <button type="submit">Submit</button>
+         
     </form>
-        	</div> 
     </main>
 </body>
 </html>
